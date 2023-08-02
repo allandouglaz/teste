@@ -1,0 +1,3 @@
+select data_venda, valor
+from vendas 
+order by data_venda ASC, sum(valor) ASC;
