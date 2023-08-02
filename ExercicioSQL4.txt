@@ -1,0 +1,3 @@
+update produtos
+set desconto = "10%" 
+where desconto = null;
