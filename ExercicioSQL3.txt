@@ -1,0 +1,2 @@
+alter table produtos 
+add desconto varchar(20) NULL;
