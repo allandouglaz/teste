@@ -1,0 +1,5 @@
+select p.nome, p.preco, c.id_categoria, c.nome_categoria
+from produtos p
+full join categoria c
+on p.id_categoria = c.id_categoria
+where nome_categoria ="Eletrônicos" and preco > 500.00;
